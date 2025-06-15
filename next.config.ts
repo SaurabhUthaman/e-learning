@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
       },
     ]
   },
+  basePath: '/e-learning'
   /* config options here */
 };
 
