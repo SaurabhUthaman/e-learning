@@ -16,10 +16,9 @@ jobs:
         run: npm install
 
       - name: Build & Export
-        run: npm run build && npm run export
+        run: npm run build
 
       - name: Upload static site
         uses: actions/upload-artifact@v4
         with:
-          name: nextjs-static
           path: out/
