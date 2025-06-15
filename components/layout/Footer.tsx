@@ -54,7 +54,7 @@ const Footer = () => {
 export default Footer
 
 const data:IData = {
-    image:'/images/logo.svg',
+    image:'/e-learning/images/logo.svg',
     image_alt:'logo',
     link:'/',
     description:'Our mission is to provide accessible, affordable, and impactful learning, empowering learners to achieve goals with expert support.',

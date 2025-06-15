@@ -50,7 +50,7 @@ export default JourneyMadeSimple
 const data:IData = {
     title:"Your learning journey made simple",
     description:'Browse courses, enroll easily, and learn at your pace with expert-led lessons and accessible resources.',
-    image:'/images/journey.webp',
+    image:'/e-learning/images/journey.webp',
     image_alt:'alt',
     list:[
         {
