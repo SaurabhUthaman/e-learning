@@ -9,6 +9,10 @@ const nextConfig: NextConfig = {
         protocol:"https",
         hostname:"saurabhuthaman.github.io"
       },
+      {
+        protocol:'https',
+        hostname:'e-learning-six-flax.vercel.app'
+      }
     ]
   },
   // basePath: '/e-learning',
