@@ -33,6 +33,6 @@ const data:IUnlock = {
 Our name reflects our commitment to helping you take bold strides toward your educational goals. Whether you’re a working professional, a student, or a lifelong learner, we’re here to support your journey.`,
     cta_url:"/",
     cta_name:"Explore Courses",
-    image:`/e-learning/images/WhoWeAre.webp`,
+    image:`/images/WhoWeAre.webp`,
     image_alt:'image',
 }

@@ -8,7 +8,7 @@ const Header = () => {
     const pathName = usePathname();
     return(
         <header className="header sticky top-4 flex items-center justify-between m-4 z-10 px-8 py-2 2xl:py-4 2xl:px-10 rounded-full bg-gray-200 container mx-auto 2xl">
-            <Image src="/e-learning/images/logo.svg" alt="Logo" width={214} height={66} />
+            <Image src="/images/logo.svg" alt="Logo" width={214} height={66} />
             <nav className="lg:flex hidden items-center justify-between gap-10">
                 {data.links.map((link: ICTA, i: number) => (
                     <Link key={`nav_links_${i}`} className={`relative ${pathName == link.cta_url ? 'font-bold' : 'font-medium'} hover:scale-110 inline-block text-black text-lg header-links  group transition-all duration-300`} href={link.cta_url}>
@@ -28,7 +28,7 @@ interface IData{
     links: ICTA[];
 }
 const data:IData = {
-    logo:"/e-learning/images/logo.svg",
+    logo:"/images/logo.svg",
     cta_url:"/",
     links:[
         {

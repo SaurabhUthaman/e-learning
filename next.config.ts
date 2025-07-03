@@ -12,6 +12,10 @@ const nextConfig: NextConfig = {
       {
         protocol:'https',
         hostname:'e-learning-six-flax.vercel.app'
+      },
+      {
+        protocol:'https',
+        hostname:'e-learning-hrin3k6cl-saurabhuthamans-projects.vercel.app'
       }
     ]
   },
