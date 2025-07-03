@@ -11,8 +11,8 @@ const nextConfig: NextConfig = {
       },
     ]
   },
-  basePath: '/e-learning',
-  assetPrefix: '/e-learning',
+  // basePath: '/e-learning',
+  // assetPrefix: '/e-learning',
   /* config options here */
 };
 
