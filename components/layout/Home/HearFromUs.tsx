@@ -25,6 +25,12 @@ const HearFromUs = () => {
         draggable: false,
         responsive: [
             {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                },
+            },
+            {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 2.2,
@@ -43,7 +49,7 @@ const HearFromUs = () => {
             <div key={`hear_from_us_${i}`}>
                 <div className="flex items-center gap-3 bg-white rounded-lg px-6 py-4 m-2 md:m-4">
                     <span className="sm:inline-block hidden min-w-[84px]">
-                        <Image src={`/images/unlock.webp`} alt={item.image} width={84} height={84} />
+                        <Image src={item.image} className="rounded-lg" alt={item.image} width={84} height={84} />
                     </span>
                     <p className="font-extralight text-md ">{item.title}</p>
                 </div>
@@ -84,202 +90,202 @@ const data:IData = {
     list:[
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         }
         ,{
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         },
         {
             title:'Edumile’s interactive content and sup made online learning enjoyable and rewarding. - @mervincobb01',
-            image:`/images/hear.webp`,
+            image:`/images/review.png`,
             image_alt:'alt'
         }
     ]

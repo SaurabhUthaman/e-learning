@@ -3,6 +3,7 @@ import { ICTA, IImage, Ititle } from "../../../interfaces/common";
 import HearFromUs from "../../../components/layout/Home/HearFromUs";
 import HomeFaqs from "../../../components/layout/Home/HomeFaqs";
 import WhoWeAre from "../../../components/layout/AboutUs/WhoWeAre";
+import OurValues from "../../../components/layout/AboutUs/OurValues";
 
 const HomePage = () => {
     return (
@@ -12,6 +13,7 @@ const HomePage = () => {
             <p className={`font-extralight text-md md:text-xl mt-5 text-center lg:whitespace-pre-line`}>{title.description}</p>
         </section>
         <WhoWeAre data={data} />
+        <OurValues />
         <HearFromUs />
         <HomeFaqs />
         </>
@@ -19,7 +21,11 @@ const HomePage = () => {
 }
 
 export default HomePage;
-interface IUnlock extends Ititle, ICTA, IImage {}
+interface IUnlock extends Ititle, ICTA, IImage {
+    successSection:Ititle & {
+        list:Ititle[]
+    }
+}
 const title:Ititle = {
     title:`Skills made simple, 
 Learning made accessible`,
@@ -35,4 +41,21 @@ Our name reflects our commitment to helping you take bold strides toward your ed
     cta_name:"Explore Courses",
     image:`/images/WhoWeAre.webp`,
     image_alt:'image',
+    successSection:{
+        title:"Success measured by the numbers",
+        list:[
+            {
+                title:"1K<span class='text-secondary'>+</span>",
+                description:'Expert-Led courses covering \n a wide range of topics'
+            },
+            {
+                title:"5M<span class='text-secondary'>+</span>",
+                description:'Learners empowered across \n the globe'
+            },
+            {
+                title:"95<span class='text-secondary'>%</span>",
+                description:'Satisfaction rate among \n our students'
+            }
+        ]
+    }
 }
